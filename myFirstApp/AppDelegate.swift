@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  myFirstApp
 //
-//  Created by Jonathan on 28/01/20.
+//  Created by Blumenauense de Blumenau on 28/01/20.
 //  Copyright © 2020 HBSIS. All rights reserved.
 //
 

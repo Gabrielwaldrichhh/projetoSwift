@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2F240423E83E34006ABCF2 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F240323E83E34006ABCF2 /* Bar.swift */; };
+		AB2F240623E9A969006ABCF2 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F240523E9A969006ABCF2 /* BarTableViewCell.swift */; };
+		AB2F240823E9BBAC006ABCF2 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F240723E9BBAC006ABCF2 /* BarTableViewController.swift */; };
 		AB4BB63223E06EF200772F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BB63123E06EF200772F6F /* AppDelegate.swift */; };
 		AB4BB63423E06EF200772F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BB63323E06EF200772F6F /* ViewController.swift */; };
 		AB4BB63723E06EF200772F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4BB63523E06EF200772F6F /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		AB4BB63C23E06EF900772F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4BB63A23E06EF900772F6F /* LaunchScreen.storyboard */; };
 		AB4BB64723E06EF900772F6F /* myFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BB64623E06EF900772F6F /* myFirstAppTests.swift */; };
 		AB4BB65223E06EF900772F6F /* myFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BB65123E06EF900772F6F /* myFirstAppUITests.swift */; };
+		AB4BB66023E44AD800772F6F /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BB65F23E44AD800772F6F /* RatingBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB2F240323E83E34006ABCF2 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		AB2F240523E9A969006ABCF2 /* BarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
+		AB2F240723E9BBAC006ABCF2 /* BarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
 		AB4BB62E23E06EF200772F6F /* myFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4BB63123E06EF200772F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB4BB63323E06EF200772F6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		AB4BB64D23E06EF900772F6F /* myFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4BB65123E06EF900772F6F /* myFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstAppUITests.swift; sourceTree = "<group>"; };
 		AB4BB65323E06EF900772F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4BB65F23E44AD800772F6F /* RatingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				AB4BB63123E06EF200772F6F /* AppDelegate.swift */,
 				AB4BB63323E06EF200772F6F /* ViewController.swift */,
+				AB4BB65F23E44AD800772F6F /* RatingBar.swift */,
+				AB2F240523E9A969006ABCF2 /* BarTableViewCell.swift */,
+				AB2F240323E83E34006ABCF2 /* Bar.swift */,
 				AB4BB63523E06EF200772F6F /* Main.storyboard */,
+				AB2F240723E9BBAC006ABCF2 /* BarTableViewController.swift */,
 				AB4BB63823E06EF900772F6F /* Assets.xcassets */,
 				AB4BB63A23E06EF900772F6F /* LaunchScreen.storyboard */,
 				AB4BB63D23E06EF900772F6F /* Info.plist */,
@@ -256,6 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2F240623E9A969006ABCF2 /* BarTableViewCell.swift in Sources */,
+				AB2F240823E9BBAC006ABCF2 /* BarTableViewController.swift in Sources */,
+				AB4BB66023E44AD800772F6F /* RatingBar.swift in Sources */,
+				AB2F240423E83E34006ABCF2 /* Bar.swift in Sources */,
 				AB4BB63423E06EF200772F6F /* ViewController.swift in Sources */,
 				AB4BB63223E06EF200772F6F /* AppDelegate.swift in Sources */,
 			);
