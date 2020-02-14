@@ -49,7 +49,6 @@ class BarTableViewController: UITableViewController {
         return Bars.count
     }
     
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // Table view cells are reused and should be dequeued using a cell identifier.
@@ -180,15 +179,6 @@ class BarTableViewController: UITableViewController {
             // Save the meals.
             saveBares()
         }
-        
-        if let sourceViewController = sender.source as? ViewController, let bar = sourceViewController.bar {
-            
-            // Add a new meal.
-            let newIndexPath = IndexPath(row: Bars.count, section: 0)
-            Bars.append(bar)
-            tableView.insertRows(at: [newIndexPath], with: .automatic)
-        }
-        
     }
     
 }
