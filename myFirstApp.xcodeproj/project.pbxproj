@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2B20EF23FAB79B00FF6432 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20EE23FAB79B00FF6432 /* MapViewController.swift */; };
 		AB2F240423E83E34006ABCF2 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F240323E83E34006ABCF2 /* Bar.swift */; };
 		AB2F240623E9A969006ABCF2 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F240523E9A969006ABCF2 /* BarTableViewCell.swift */; };
 		AB2F240823E9BBAC006ABCF2 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F240723E9BBAC006ABCF2 /* BarTableViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB2B20EE23FAB79B00FF6432 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AB2F240323E83E34006ABCF2 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		AB2F240523E9A969006ABCF2 /* BarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
 		AB2F240723E9BBAC006ABCF2 /* BarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				AB4BB63123E06EF200772F6F /* AppDelegate.swift */,
 				AB4BB63323E06EF200772F6F /* ViewController.swift */,
+				AB2B20EE23FAB79B00FF6432 /* MapViewController.swift */,
 				AB4BB65F23E44AD800772F6F /* RatingBar.swift */,
 				AB2F240523E9A969006ABCF2 /* BarTableViewCell.swift */,
 				AB2F240323E83E34006ABCF2 /* Bar.swift */,
@@ -274,6 +277,7 @@
 				AB2F240423E83E34006ABCF2 /* Bar.swift in Sources */,
 				AB4BB63423E06EF200772F6F /* ViewController.swift in Sources */,
 				AB4BB63223E06EF200772F6F /* AppDelegate.swift in Sources */,
+				AB2B20EF23FAB79B00FF6432 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
